@@ -25,19 +25,3 @@
 <div align="center">
   <img src="./assets/github-contribution-snake.svg" alt="contribution snake" width="100%" />
 </div>
-
----
-
-<div align="center">
-
-[rov-firmware](https://github.com/just-a-submarine/rov-firmware) ·
-[calcrux](https://github.com/RX5950XT/calcrux) ·
-[llm-council](https://github.com/RX5950XT/llm-council) ·
-[ESP-32-CAM](https://github.com/RX5950XT/ESP-32-CAM_remote_monitor)
-
-<br/>
-
-<img height="140" src="https://github-readme-stats.vercel.app/api?username=RX5950XT&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00c647&icon_color=00c647&text_color=c9d1d9" alt="stats" />
-<img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RX5950XT&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00c647&text_color=c9d1d9" alt="langs" />
-
-</div>
