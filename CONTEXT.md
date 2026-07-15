@@ -34,9 +34,27 @@ GitHub 個人首頁 repo（username = repo name：`RX5950XT/RX5950XT`）。
 - Profile **維持匿名**：不放學校、系所、姓名、Email 等個資。
 - 專案描述避免可識別身分的學校字樣（repo 名若已公開另當別論）。
 
+## 已知問題（2026-07-15）
+
+**Profile overview 不顯示 README**（`https://github.com/RX5950XT` 沒有 markdown-body / profile-readme）。  
+已驗證：
+- repo 公開、名稱 = username、root 有 `README.md`、內容非空
+- repo 頁 `https://github.com/RX5950XT/RX5950XT` 正常渲染全部 GIF + snake
+- 極簡 README / auto_init 預設模板也無法掛到 overview
+- 多次 rename 重建、切 private/public 無效
+
+屬 GitHub 端「special profile repo」綁定失敗（類似 community #193747）。  
+API token 無 `delete_repo` scope，無法從 CLI 完整刪庫重做。
+
+**手動修復（需登入網頁）：**
+1. 刪除 `RX5950XT/RX5950XT`（Settings → Delete）
+2. 一併刪多餘：`RX5950XT-tmp-profile`、`RX5950XT-content-backup`
+3. 用網頁 **New repository**，名稱精準 `RX5950XT`，勾 **Add a README**（應出現 special repository 提示）
+4. 本地再 `git push -u origin main --force`
+
 ## 最近變更
 
-- 重做 profile README：用 11 張 Claude GIF 串成「一天日常」敘事 + snake + 精選專案 + stats。
-- assets 全數 rename 為 kebab-case 英文檔名。
-- 移除個資文案；rewrite commit 清除歷史中的個資。
+- 重做 profile README：11 張 Claude GIF 劇情 + snake + 專案 + stats。
+- assets 改 ASCII 檔名；移除個資；history rewrite 無學校字樣。
+
 
