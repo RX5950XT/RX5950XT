@@ -4,7 +4,7 @@
 
 <br/>
 
-*ship it, break it, blame the agent*
+*build everything, break it, blame the agent*
 
 </div>
 
