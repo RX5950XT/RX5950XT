@@ -1,59 +1,40 @@
 # CONTEXT — RX5950XT GitHub Profile
 
-## 目的
-
-GitHub 個人首頁 repo（username = repo name：`RX5950XT/RX5950XT`）。  
-遠端：`https://github.com/RX5950XT/RX5950XT`（public，`main`）。
-
-## 素材對照（`assets/`）
-
-| 檔名 | 標籤 | 情境角色 |
-|------|------|----------|
-| `claude-jump.gif` | （hero） | 登場 |
-| `claude-coding.gif` | tap tap | 寫 code |
-| `claude-thinking.gif` | uhhh… | 卡需求 |
-| `claude-magnifier.gif` | where bug | 調查 / debug |
-| `claude-idea.gif` | wait. wait. | 靈感 |
-| `claude-wand.gif` | ✨ yolo | AI 協作出貨 |
-| `claude-welding.gif` | hot metal | 硬體 / 韌體 |
-| `claude-wrench.gif` | bonk fix | 修 bug |
-| `claude-error.gif` | oopsie | 炸掉 |
-| `claude-bubbles.gif` | zen mode | 冷靜 |
-| `claude-music.gif` | lofi.exe | 收尾 / 循環 |
-| `github-contribution-snake.svg` | — | 動態 contribution |
+個人首頁 repo：`RX5950XT/RX5950XT`（public）。
 
 ## README 結構
 
 1. Hero：`claude-jump.gif` + tagline `build everything, break it, blame the agent`
-2. **5×2 HTML table**（10 張情境 GIF + 一字標籤）
+2. **5×2 HTML `<table>`**（10 張情境 GIF + 標籤）
 3. Contribution snake SVG
 
-### 網格注意
+網格必須用 HTML table（2 tr × 5 td）。缺 separator 的 Markdown table 會直排並露出 `|`。
 
-- 必須用 **HTML `<table>`**（2 `<tr>` × 5 `<td>`），勿用缺 separator 的 Markdown table（會被當成直列文字）。
-- 每格 `width="20%"` + `align="center"`，無多餘行列。
-- Profile README **不能** inline script / 任意 CSS；動態靠 SVG / badge / GIF。
-- 貪吃蛇路徑：`assets/github-contribution-snake.svg`（snk workflow 勿覆蓋其他素材）。
-- 檔名一律 ASCII。
+## assets/ 用途
+
+| 檔案 | README 位置 | 標籤 | 用途 |
+|------|-------------|------|------|
+| `claude-jump.gif` | Hero | — | 登場／跳躍 |
+| `claude-coding.gif` | 上 1 | tap tap | 寫 code |
+| `claude-thinking.gif` | 上 2 | uhhh… | 卡住思考 |
+| `claude-magnifier.gif` | 上 3 | where bug | 找 bug／debug |
+| `claude-idea.gif` | 上 4 | wait. wait. | 靈感來了 |
+| `claude-wand.gif` | 上 5 | ✨ yolo | AI 一鍵出貨 |
+| `claude-welding.gif` | 下 1 | hot metal | 硬體／韌體焊接 |
+| `claude-wrench.gif` | 下 2 | bonk fix | 硬修／重構 |
+| `claude-error.gif` | 下 3 | oopsie | 炸掉／ERROR |
+| `claude-bubbles.gif` | 下 4 | zen mode | 冷靜吹泡泡 |
+| `claude-music.gif` | 下 5 | lofi.exe | 收尾聽音樂 |
+| `github-contribution-snake.svg` | 底部 | — | snk 動態 contribution 蛇 |
 
 ## 規範
 
-- Profile **維持匿名**：不放學校、系所、姓名、Email 等個資。
-- 專案描述避免可識別身分的學校字樣。
+- 匿名：無學校／姓名／Email
+- 檔名一律 ASCII
+- Profile 不能 inline script／任意 CSS；動態靠 GIF／SVG／badge
+- snk workflow 只更新 `github-contribution-snake.svg`，勿覆蓋其他素材
 
-## 已知問題（2026-07-15）
+## 已知問題
 
-**Profile overview 不顯示 README**（`https://github.com/RX5950XT` 沒有 profile-readme）。  
-repo 頁本身可正常渲染；屬 GitHub special profile repo 綁定失敗。
-
-**手動修復（需登入網頁）：**
-1. 刪除 `RX5950XT/RX5950XT`（Settings → Delete）
-2. 一併刪多餘 tmp/backup repo
-3. 網頁 **New repository** 名稱精準 `RX5950XT`，勾 **Add a README**
-4. 本地 `git push -u origin main --force`
-
-## 最近變更
-
-- README 網格改 HTML table **5×2**，修掉 Markdown table 缺 separator 導致直排。
-- 極簡：圖為主、每格短標籤；無 badge / CTA / 個資。
-- assets ASCII 檔名。
+Profile overview（`github.com/RX5950XT`）不掛 README，屬 special profile repo 綁定失敗。  
+手動：網頁刪庫 → 新建同名並勾 Add a README → `git push -u origin main --force`。
