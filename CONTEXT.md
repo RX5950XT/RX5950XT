@@ -54,7 +54,8 @@ API token 無 `delete_repo` scope，無法從 CLI 完整刪庫重做。
 
 ## 最近變更
 
-- 重做 profile README：11 張 Claude GIF 劇情 + snake + 專案 + stats。
-- assets 改 ASCII 檔名；移除個資；history rewrite 無學校字樣。
+- README 極簡：圖為主、每格一字標籤；拿掉長文案／badge 堆疊／CTA。
+- assets 改 ASCII 檔名；匿名；無學校個資。
+
 
 
