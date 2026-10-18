@@ -32,7 +32,7 @@
 - 匿名：無學校／姓名／Email
 - 檔名一律 ASCII
 - Profile 不能 inline script／任意 CSS；動態靠 GIF／SVG／badge
-- snk workflow 只更新 `github-contribution-snake.svg`，勿覆蓋其他素材
+- snk workflow（`.github/workflows/snake.yml`，每天 UTC 00:00 + 手動）只更新 `github-contribution-snake.svg`，勿覆蓋其他素材
 
 ## 已知問題
 
