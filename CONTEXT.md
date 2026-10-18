@@ -25,14 +25,15 @@
 | `claude-error.gif` | 下 3 | oopsie | 炸掉／ERROR |
 | `claude-bubbles.gif` | 下 4 | zen mode | 冷靜吹泡泡 |
 | `claude-music.gif` | 下 5 | lofi.exe | 收尾聽音樂 |
-| `github-contribution-snake.svg` | 底部 | — | snk 動態 contribution 蛇 |
+| `github-contribution-snake.svg` | 底部 | — | snk 動態 contribution 蛇（淺色） |
+| `github-contribution-snake-dark.svg` | 底部 | — | 同上（深色，`<picture>` 切換） |
 
 ## 規範
 
 - 匿名：無學校／姓名／Email
 - 檔名一律 ASCII
 - Profile 不能 inline script／任意 CSS；動態靠 GIF／SVG／badge
-- snk workflow（`.github/workflows/snake.yml`，每天 UTC 00:00 + 手動）只更新 `github-contribution-snake.svg`，勿覆蓋其他素材
+- snk workflow（`.github/workflows/snake.yml`，每天 UTC 00:00 + 手動）只更新兩張 `github-contribution-snake*.svg`，勿覆蓋其他素材
 
 ## 已知問題
 

@@ -26,5 +26,8 @@
 ---
 
 <div align="center">
-  <img src="./assets/github-contribution-snake.svg" alt="contribution snake" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-snake-dark.svg" />
+    <img src="./assets/github-contribution-snake.svg" alt="contribution snake" width="100%" />
+  </picture>
 </div>
