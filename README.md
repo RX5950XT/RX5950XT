@@ -31,3 +31,11 @@
     <img src="./assets/github-contribution-snake.svg" alt="contribution snake" width="100%" />
   </picture>
 </div>
+
+---
+
+<div align="center">
+  <img src="./assets/rick-roll.gif" width="200" alt="rick roll" />
+  <br/>
+  <em>never gonna give you up</em>
+</div>
