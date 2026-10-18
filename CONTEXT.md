@@ -7,7 +7,7 @@
 1. Hero：`claude-jump.gif` + tagline `build everything, break it, blame the agent`
 2. **5×2 HTML `<table>`**（10 張情境 GIF + 標籤）
 3. Contribution snake SVG
-4. Rick roll GIF（`never gonna give you up`）
+4. Rick roll GIF（400px，無字幕）
 
 網格必須用 HTML table（2 tr × 5 td）。缺 separator 的 Markdown table 會直排並露出 `|`。
 
@@ -28,7 +28,7 @@
 | `claude-music.gif` | 下 5 | lofi.exe | 收尾聽音樂 |
 | `github-contribution-snake.svg` | 底部 | — | snk 動態 contribution 蛇（淺色） |
 | `github-contribution-snake-dark.svg` | 底部 | — | 同上（深色，`<picture>` 切換） |
-| `rick-roll.gif` | 最底 | never gonna give you up | 彩蛋 |
+| `rick-roll.gif` | 最底 | — | 彩蛋 |
 
 ## 規範
 

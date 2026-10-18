@@ -35,7 +35,5 @@
 ---
 
 <div align="center">
-  <img src="./assets/rick-roll.gif" width="200" alt="rick roll" />
-  <br/>
-  <em>never gonna give you up</em>
+  <img src="./assets/rick-roll.gif" width="400" alt="rick roll" />
 </div>
