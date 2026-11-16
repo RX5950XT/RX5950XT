@@ -7,7 +7,7 @@
 1. Hero：`claude-jump.gif` + tagline `build everything, break it, blame the agent`
 2. **5×2 HTML `<table>`**（10 張情境 GIF + 標籤）
 3. Contribution snake SVG
-4. Rick roll GIF（400px，無字幕）
+4. Rick roll GIF（100% 滿寬，無字幕）
 
 網格必須用 HTML table（2 tr × 5 td）。缺 separator 的 Markdown table 會直排並露出 `|`。
 

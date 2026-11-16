@@ -35,5 +35,5 @@
 ---
 
 <div align="center">
-  <img src="./assets/rick-roll.gif" width="400" alt="rick roll" />
+  <img src="./assets/rick-roll.gif" width="100%" alt="rick roll" />
 </div>
